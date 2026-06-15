@@ -1,9 +1,17 @@
-# Example Mod
+# Relic Metals
 
-## Setup
+A Fabric mod for Minecraft that adds fantasy relic metals (mithril, etc.) and the gear forged from them.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+A personal learning playground for Fabric mod development.
+
+## Development
+
+Requires JDK 25 (the current Fabric toolchain target).
+
+```sh
+./gradlew runClient
+```
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+MIT — see [LICENSE](./LICENSE).

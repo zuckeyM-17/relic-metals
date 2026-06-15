@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.client.mixin",
+	"package": "com.zuckeym17.relicmetals.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"RelicMetalsClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

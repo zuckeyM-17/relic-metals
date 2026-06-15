@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "relic_metals",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Relic Metals",
+	"description": "A learning playground mod that adds fantasy relic metals (mithril, etc.) and the gear forged from them.",
 	"authors": [
-		"Me!"
+		"zuckey"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/zuckeyM-17/relic-metals",
+		"sources": "https://github.com/zuckeyM-17/relic-metals"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/relic_metals/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.zuckeym17.relicmetals.RelicMetals"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.zuckeym17.relicmetals.client.RelicMetalsClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"relic_metals.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "relic_metals.client.mixins.json",
 			"environment": "client"
 		}
 	],
